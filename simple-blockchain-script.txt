@@ -1,0 +1,23 @@
+STACK ELEMENTS -------------------------------------------------------------
+
+//
+// Script Wizard makes it easy to design and compile
+// custom Bitcoin scripts.
+//
+// Simply write your script and put witness elements
+// at the very top. You can see stack execution line by line.
+//
+// Feel free to create issues on GitHub if you encounter bugs.
+//
+
+<"Sammy">
+<"Sammy">
+
+WITNESS SCRIPT ---------------------------------------------------------------
+
+OP_EQUAL
+OP_IF
+  <"Same Name">
+OP_ELSE
+  <"Diff Name">
+OP_ENDIF
