@@ -1,23 +1,19 @@
-STACK ELEMENTS -------------------------------------------------------------
-
-//
-// Script Wizard makes it easy to design and compile
-// custom Bitcoin scripts.
-//
-// Simply write your script and put witness elements
-// at the very top. You can see stack execution line by line.
-//
-// Feel free to create issues on GitHub if you encounter bugs.
-//
+# Program Inputs --------------------------------------
 
 <"Sammy">
-<"Sammy">
+<"Cowboys-Win-Superbowl">
 
-WITNESS SCRIPT ---------------------------------------------------------------
+# Script ----------------------------------------------
 
+OP_SHA1
+<0x0351b7f488e1b4a6f8f928656e53b82f3149c777>
 OP_EQUAL
 OP_IF
-  <"Same Name">
+    <"Sammy">
 OP_ELSE
-  <"Diff Name">
+    <"John">
 OP_ENDIF
+OP_EQUAL
+
+# Result --------------------------------------------
+This script is given two inputs, a Name, and a Team that won the superbowl. In order for this to equate to 1 (True), the SHA1 hash of the team info must match the hash in the scipt. Also, if the hash's do match, the name must be Sammy. If not, return 0 (False).
