@@ -1,0 +1,14 @@
+
+Set up a receive transaction for initall funding.
+    Funding Transaction
+    Transaction ID: https://mempool.space/testnet/tx/4f41e8776e5002a4d5b2f8e39b33272037c98adc0e689526b8f17161127698d0
+    Faucet Input: https://mempool.space/testnet/address/tb1qrrep5ln88h8gnd2awfy30ecxsrxrvrnu0yy5n8
+    My (Sammy) Wallet Address: https://mempool.space/testnet/address/tb1qkkndh8zjx2wm64htza3tnaju6wvsuceknujaxg
+    Fee Address: https://mempool.space/testnet/address/tb1q7lkujs3h3h7qkhzq9zu2heyr5pdj7lu7dxwkkr
+ 
+ Send back funding to faucet.
+    Redeem Transaction
+    Transaction ID: https://mempool.space/testnet/tx/d9fe10ce08dd181dd1529d9d1a0d3874af2f1e7aada034b9b9da7219129eaa95
+    Faucet Address: tb1q4280xax2lt0u5a5s9hd4easuvzalm8v9ege9ge (https://mempool.space/testnet/address/tb1q4280xax2lt0u5a5s9hd4easuvzalm8v9ege9ge)
+    My (Sammy) Wallet Address :https://mempool.space/testnet/address/tb1qkkndh8zjx2wm64htza3tnaju6wvsuceknujaxg
+    Fee: [No fee for this transaction]
