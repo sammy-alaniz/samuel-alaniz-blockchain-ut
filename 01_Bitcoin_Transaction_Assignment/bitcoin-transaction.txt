@@ -12,3 +12,6 @@ Set up a receive transaction for initall funding.
     Faucet Address: tb1q4280xax2lt0u5a5s9hd4easuvzalm8v9ege9ge (https://mempool.space/testnet/address/tb1q4280xax2lt0u5a5s9hd4easuvzalm8v9ege9ge)
     My (Sammy) Wallet Address :https://mempool.space/testnet/address/tb1qkkndh8zjx2wm64htza3tnaju6wvsuceknujaxg
     Fee: [No fee for this transaction]
+
+Details
+For this transaction I received funding from the website, [https://bitcoinfaucet.uo1.net/]. This gave me inital funding into my wallet. The software tools I used to receive funding was Bitcoin Core - Qt. In order to then redeem the funding that was sent, I decided to send bitcoin back to the faucet. This is requested from the faucets website. For both send and receive I had to generate a transaction with Bitcoin Core - Qt that was/is viewable from mempool space.
