@@ -1,5 +1,8 @@
-# Program Inputs --------------------------------------
+Assignment 02 - Bitcoin Script
+Name: Samuel Alaniz
+Email: samalaniz25@gmail.com
 
+# Program Inputs --------------------------------------
 <"Sammy">
 <"Cowboys-Win-Superbowl">
 

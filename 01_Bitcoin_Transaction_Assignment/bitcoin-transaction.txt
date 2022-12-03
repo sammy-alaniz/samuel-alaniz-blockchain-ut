@@ -1,3 +1,6 @@
+Assignment 01 - Bitcoin Transaction
+Name: Samuel Alaniz
+Email: samalaniz25@gmail.com
 
 Set up a receive transaction for initall funding.
     Funding Transaction

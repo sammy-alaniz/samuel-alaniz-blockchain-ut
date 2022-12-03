@@ -1,0 +1,146 @@
+ lncli walletbalance
+{
+    "total_balance": "672492",
+    "confirmed_balance": "672492",
+    "unconfirmed_balance": "0",
+    "account_balance": {
+        "default": {
+            "confirmed_balance": "672492",
+            "unconfirmed_balance": "0"
+        }
+    }
+}
+ lncli listchannels
+{
+    "channels": [
+        {
+            "active": true,
+            "remote_pubkey": "02cf71da3f277c2a30a348dfced77a9b7d81fb578c2b9117967100352051626b84",
+            "channel_point": "64dc0325d80304e7185e6c4c6a602a8e95bfb5d67502de3d9251a2a0cea5e8be:0",
+            "chan_id": "2649275466152017920",
+            "capacity": "20000",
+            "local_balance": "0",
+            "remote_balance": "19056",
+            "commit_fee": "614",
+            "commit_weight": "772",
+            "fee_per_kw": "253",
+            "unsettled_balance": "0",
+            "total_satoshis_sent": "0",
+            "total_satoshis_received": "0",
+            "num_updates": "0",
+            "pending_htlcs": [
+            ],
+            "csv_delay": 144,
+            "private": false,
+            "initiator": false,
+            "chan_status_flags": "ChanStatusDefault",
+            "local_chan_reserve_sat": "354",
+            "remote_chan_reserve_sat": "354",
+            "static_remote_key": false,
+            "commitment_type": "ANCHORS",
+            "lifetime": "75609",
+            "uptime": "74544",
+            "close_address": "",
+            "push_amount_sat": "0",
+            "thaw_height": 0,
+            "local_constraints": {
+                "csv_delay": 144,
+                "chan_reserve_sat": "354",
+                "dust_limit_sat": "354",
+                "max_pending_amt_msat": "19800000",
+                "min_htlc_msat": "1",
+                "max_accepted_htlcs": 483
+            },
+            "remote_constraints": {
+                "csv_delay": 144,
+                "chan_reserve_sat": "354",
+                "dust_limit_sat": "354",
+                "max_pending_amt_msat": "19800000",
+                "min_htlc_msat": "1",
+                "max_accepted_htlcs": 483
+            }
+        },
+        {
+            "active": true,
+            "remote_pubkey": "03c859ecf82a5fdbbb400fa20050e13b936eea6159c37b5f6bc4c1bbb501ab944c",
+            "channel_point": "a065c264cc7661442ce7e6ef085d49b7ab587ea0ab7a96570b159ba24184d6a3:1",
+            "chan_id": "2649432696318197761",
+            "capacity": "1000000",
+            "local_balance": "996530",
+            "remote_balance": "0",
+            "commit_fee": "3140",
+            "commit_weight": "772",
+            "fee_per_kw": "2500",
+            "unsettled_balance": "0",
+            "total_satoshis_sent": "0",
+            "total_satoshis_received": "0",
+            "num_updates": "0",
+            "pending_htlcs": [
+            ],
+            "csv_delay": 144,
+            "private": false,
+            "initiator": true,
+            "chan_status_flags": "ChanStatusDefault",
+            "local_chan_reserve_sat": "10000",
+            "remote_chan_reserve_sat": "10000",
+            "static_remote_key": false,
+            "commitment_type": "ANCHORS",
+            "lifetime": "417",
+            "uptime": "417",
+            "close_address": "",
+            "push_amount_sat": "0",
+            "thaw_height": 0,
+            "local_constraints": {
+                "csv_delay": 144,
+                "chan_reserve_sat": "10000",
+                "dust_limit_sat": "354",
+                "max_pending_amt_msat": "990000000",
+                "min_htlc_msat": "1",
+                "max_accepted_htlcs": 483
+            },
+            "remote_constraints": {
+                "csv_delay": 144,
+                "chan_reserve_sat": "10000",
+                "dust_limit_sat": "354",
+                "max_pending_amt_msat": "990000000",
+                "min_htlc_msat": "1",
+                "max_accepted_htlcs": 483
+            }
+        }
+    ]
+}
+
+lncli payinvoice lntb500u1p3chxwapp5c5m8vu6mzaqstk9zjsdq6yxqacf3lfcxgvqdnj5yf6u35x72v7aqdqqcqzpgxqyz5vqsp54ywnj9rfmzu62exjuz0c7hqm4e63a09hen9s92zxdnl6pknvg5js9qyyssq3hmqv374vyast4m34pl5wpcm2yp4c668w0fjuz6vnjrk2kcl6mfq2wruplg8l6y8ejt6u4mxnxvv3ljh6xfex4f68yvgw54jygv7jysqyf44g7
+Payment hash: c53676735b174105d8a2941a0d10c0ee131fa7064300d9ca844eb91a1bca67ba
+Description: 
+Amount (in satoshis): 50000
+Fee limit (in satoshis): 50000
+Destination: 03c859ecf82a5fdbbb400fa20050e13b936eea6159c37b5f6bc4c1bbb501ab944c
+Confirm payment (yes/no): yes
++------------+--------------+--------------+--------------+-----+----------+---------------------+------------------+
+| HTLC_STATE | ATTEMPT_TIME | RESOLVE_TIME | RECEIVER_AMT | FEE | TIMELOCK | CHAN_OUT            | ROUTE            |
++------------+--------------+--------------+--------------+-----+----------+---------------------+--------------
++------------+--------------+--------------+--------------+-----+----------+---------------------+------------------+
+| HTLC_STATE | ATTEMPT_TIME | RESOLVE_TIME | RECEIVER_AMT | FEE | TIMELOCK | CHAN_OUT            | ROUTE            |
++------------+--------------+--------------+--------------+-----+----------+---------------------+------------------+
+| SUCCEEDED  |        0.016 |        2.528 | 50000        | 0   |  2409693 | 2649432696318197761 | sammy-alaniz-bob |
++------------+--------------+--------------+--------------+-----+----------+---------------------+------------------+
+Amount + fee:   50000 + 0 sat
+Payment hash:   c53676735b174105d8a2941a0d10c0ee131fa7064300d9ca844eb91a1bca67ba
+Payment status: SUCCEEDED, preimage: 6693a175cb77f2d1235b5ef480cc21dd704fe8c869bc331316233ed95c60773e
+
+
+
+ lncli closeallchannels
+{
+    "remote_pub_key": "02cf71da3f277c2a30a348dfced77a9b7d81fb578c2b9117967100352051626b84",
+    "channel_point": "64dc0325d80304e7185e6c4c6a602a8e95bfb5d67502de3d9251a2a0cea5e8be:0",
+    "closing_txid": "2a4dcc38fa62b65941f24fc931e373ba6d14505221e3a7a5a545cffdda61e85f",
+    "error": ""
+}
+{
+    "remote_pub_key": "03c859ecf82a5fdbbb400fa20050e13b936eea6159c37b5f6bc4c1bbb501ab944c",
+    "channel_point": "a065c264cc7661442ce7e6ef085d49b7ab587ea0ab7a96570b159ba24184d6a3:1",
+    "closing_txid": "3b698699239ff1c8e93b002b788be230c519c7fe5bcbf51b814134d67657a92a",
+    "error": ""
+}
